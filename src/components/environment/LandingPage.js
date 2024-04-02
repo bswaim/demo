@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import ToggleSwitch from "../atom/ToggleSwitch";
 import ToDoApp from "../organism/ToDoApp";
-import Resume from "../../downloads/Brandy_Brasket__Resume_Frontend_Engineer.pdf"
-import CoverLetter from "../../downloads/Brandy_Brasket__Cover_Letter__Frontend_Engineer.pdf"
+import Resume from "../../downloads/Resume__Brandy_Brasket__Frontend_Engineer.pdf"
+import CoverLetter from "../../downloads/Cover_Letter__Brandy_Brasket__Frontend_Engineer.pdf"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload, faExternalLink, faLink} from "@fortawesome/free-solid-svg-icons";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
@@ -35,7 +35,7 @@ function LandingPage({
                         <li> <a
                             className='underline'
                             href={Resume}
-                            download="Brandy_Brasket__Resume_Frontend_Engineer"
+                            download="Brandy_Brasket__Resume__Download"
                             target='_blank'
                         >
                             Download my resume &nbsp;
@@ -45,7 +45,7 @@ function LandingPage({
                         <li> <a
                             className='underline'
                             href={CoverLetter}
-                            download='Brandy_Brasket__Cover_Letter__Frontend_Engineer'
+                            download='Brandy_Brasket__Cover_Letter__Download'
                             target='_blank'
                         >
                             Download my cover letter &nbsp;
